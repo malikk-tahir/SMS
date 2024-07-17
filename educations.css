@@ -22,7 +22,7 @@
     font-size: 25px;
 }
 #box2{
-    background-image: url("/schools3.jpg");
+    background-image: url("schools3.jpg");
     background-size: cover;
     height: 500px;
     display: flex;
@@ -60,7 +60,7 @@ p{
     background-color:azure;
 }
 #d1{
-    background-image: url("/laptop1.jpg");
+    background-image: url("laptop1.jpg");
     background-size: cover;
     height: 500px;
     color: black;
