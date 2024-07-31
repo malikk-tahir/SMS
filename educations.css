@@ -67,7 +67,7 @@ p{
     text-align: center;
 }
 #d1{
-    background-image: url("/laptop1.jpg");
+    background-image: url("laptop1.jpg");
     background-size: cover;
     height: 500px;
     color: black;
