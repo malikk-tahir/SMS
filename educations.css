@@ -1,0 +1,172 @@
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#box1{
+    background-color:black;
+    height: 60px;
+    display: flex;
+}
+#header1{
+    color: white;
+    font-size: 35px;
+    margin-left: 10px;
+}
+#a1{
+    margin-left: 650px;
+}
+.class1{
+    color:red;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 25px;
+}
+#box2{
+    background-image: url("/schools3.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#box3{
+    text-align: center;
+}
+#button2{
+    color: white;
+    background-color: red;
+}
+p{
+    font-size: large;
+    padding: 20px 60px;
+}
+#header2{
+    font-weight: 800px;
+    color: black;
+}
+#boxx{
+    color: black;
+    text-align: center;
+}
+#boxs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.class2{
+    height: 130px;
+    width: 330px;
+    margin:8px;
+    color: black;
+    background-color:azure;
+    text-align: center;
+}
+#d1{
+    background-image: url("/laptop1.jpg");
+    background-size: cover;
+    height: 500px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#d2{
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div1{
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.class3{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.class3 h4{
+    margin-bottom: 15px;
+}
+#last{
+    position: absolute;
+    bottom: 0%;
+}
+#but{
+    background-color: black; color: white; font-size: larger;
+}
+#but:hover{
+    color: black;
+    background-color: white;
+}
+@media (max-width:600px){
+    #header1{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #a1{
+        margin-left: 50px;
+    }
+    .class1{
+        color:red;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    #box2{
+        font-size: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+    #header2{
+        font-weight:bolder;
+    }
+    #features{
+        font-size: 10px;
+    }
+    .class2{
+        height: 100px;
+        width: 280px;
+    }
+    #d1{
+        height: 100vh;
+        font-size: 15px;
+    }
+    #d1 h1{
+        font-size: 23px;
+    }
+    #d2{
+        height: 250px;
+        width: 240px;
+    }
+    #frm1{
+        font-size: 13px;
+    }
+    #div1{
+        height: 120px;
+        font-size: 7px;
+    }
+    .class3{
+        height: 60px;
+        width: 40px;
+    }
+    #last{
+        font-size: 7px;
+    }
+}
